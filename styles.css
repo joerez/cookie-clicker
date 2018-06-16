@@ -1,0 +1,85 @@
+/*Great place for colors: https://flatuicolors.com/palette/defo*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(189, 195, 199,1.0);
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  height: 10rem;
+  width: 100%;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  height: 15rem;
+  width: 100%;
+  background: #34495e;
+}
+
+#clicker {
+  background: #9b59b6;
+  border-radius: 100%;
+  border: 3px solid white;
+  height: 8rem;
+  width: 8rem;
+  /*transition: box-shadow 50ms;*/
+}
+
+#clicker:hover {
+  background: #8e44ad;
+  cursor: pointer;
+}
+
+#clicker:active {
+  background: rgba(101, 38, 143,1.0);
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.shopItem {
+  margin-top: 2rem;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  padding-bottom: 2.2rem;
+  background: rgba(236, 240, 241,1.0);
+  height: 150px;
+  width: 150px;
+}
+
+.buyBtn {
+  background: rgba(192, 57, 43,1.0);
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: white;
+  border: rgba(192, 57, 43,1.0) solid 2px;
+  transition: all 100ms;
+  cursor: pointer;
+}
+
+.buyBtn:hover {
+  background: rgba(211, 84, 0,1.0);
+}

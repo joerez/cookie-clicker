@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cookie Clicker</title>
+    <link  rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1 id="counter">0</h1>
+      <h3 class="headerLabel">Cookies</h3>
+    </div>
+
+    <div class="clickBox">
+      <button id="clicker"></button>
+    </div>
+
+    <div class="shop">
+      <div class="shopItem">
+        <p>PowerClick<p>
+        <p id="powerCount">1</p>
+        <button class="buyBtn" id="buyPower">Buy for <span id="powerClickPrice">50</span></button>
+        <p>Increases click power by: <span id="powerPerClick">1</span><p>
+      </div>
+
+      <div class="shopItem">
+        <p>Grandma</p>
+        <p id="grandmaCount">0</p>
+        <button class="buyBtn" id="buyGrandma">Buy for <span id="grandmaPrice">2,000</span></button>
+        <p>Producing <span id="grandmaPerSec">0</span> Cookies per second.<p>
+      </div>
+
+      <div class="shopItem">
+        <p>Cookie Manufacturing Facility<p>
+        <p id="facilityCount">0<p>
+        <button class="buyBtn" id="buyFacility">Buy for <span id="facilityPrice">100,000</span></button>
+        <p>Producing <span id="facilityPerSec">0</span> Cookies per second.<p>
+      </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
