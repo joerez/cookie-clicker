@@ -1,29 +1,29 @@
-# Getting Started
+## Getting Started
 
-### Creating a static page
+## Creating a static page
 
-### Assigning ID's to elements
+## Assigning ID's to elements
 
-### Manipulate the DOM With Javascript
+## Manipulate the DOM With Javascript
 
-### Setting default variables
+## Setting default variables
 
-### Making your main click button (Event listeners)
+## Making your main click button (Event listeners)
 
-### Adding shop items
+## Adding shop items
 
-### Creating Reusable functions
+## Creating Reusable functions
 
-### Addressing balance issues
+## Addressing balance issues
 
-### Make prices and power scale as you buy more
+## Make prices and power scale as you buy more
 
 ## The second and third shop items
 
-### Adding game loops!
+## Adding game loops!
 
-### Save to local localstorage
+## Save to local localstorage
 
-### Stretch challenge: Add two more shop items!
+## Stretch challenge: Add two more shop items!
 
-### Stretch challenge: Add more interesting CSS.
+## Stretch challenge: Add more interesting CSS.
