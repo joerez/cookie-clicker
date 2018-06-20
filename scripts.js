@@ -156,9 +156,13 @@ buyFacility.addEventListener("click", function() {
       case facilityAmount >= 15 && facilityAmount < 20:
         facilityPower = facilityPower + 3860;
         break;
-      case FacilityAmount >= 20:
+      case FacilityAmount >= 20 ** facilityAmount < 21:
         facilityPower = facilityPower + 6000;
         break;
+      case FacilityAmount > 21:
+        facilityPower = facilityPower + 6000;
+        break;
+
     }
 
     autoFacility = true;
@@ -225,3 +229,20 @@ function facilityAutoGo() {
       refreshCookieCount();
     }, 1000);
 }
+
+
+// wrap it all in an IIFE
+(function(){
+  // all code here
+})()
+
+// localstorage
+// localstorage.getItem('key')
+// gameObj <-- has all data
+// let value = JSON.stringify(gameObj)
+// localstorage.setItem('key', value)
+
+var a = {key:'hello', value: 23}
+JSON.stringify(a) // works great
+var b = {key: 'world', getDiamter: function() {return 8000}}
+JSON.stringify(b) // doesn't work :(

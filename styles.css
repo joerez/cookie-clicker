@@ -34,21 +34,26 @@ body {
 }
 
 #clicker {
-  background: #9b59b6;
+  background: url('https://freelyhandustry.com/wp-content/uploads/2016/11/image-cookie.png');
+  background-size: cover;
+  background-position: center;
   border-radius: 100%;
-  border: 3px solid white;
+  /*border: 3px solid white;*/
+  border: none;
   height: 8rem;
   width: 8rem;
   /*transition: box-shadow 50ms;*/
+  transition: all 100ms;
 }
 
 #clicker:hover {
-  background: #8e44ad;
+  /*background: #8e44ad;*/
+  transform: scale(1.05);
   cursor: pointer;
 }
 
 #clicker:active {
-  background: rgba(101, 38, 143,1.0);
+  /*background: rgba(101, 38, 143,1.0);*/
 }
 
 .shop {
