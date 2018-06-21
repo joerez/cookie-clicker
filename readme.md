@@ -4,8 +4,6 @@
 
 ## Assigning ID's to elements
 
-## Manipulate the DOM With Javascript
-
 ## Setting default variables
 
 ## Making your main click button (Event listeners)
